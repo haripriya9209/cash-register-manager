@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+h2{
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.section{
+    text-align: center;
+    background-color: rgb(12, 13, 14);
+    color: white;
+    margin: 0px 28%;
+    padding: 20px;
+}
+input{
+    margin: 10px;
+    width: 80%;
+    padding: 15px;
+}
+@media (max-width: 767px) {
+    .section{
+        margin: 0px;
+    }
+}
+
+label{
+    font-size: 23px;
+}
+button{
+    margin: 10px 10px 25px 10px;
+    padding: 7px 20px;
+    color: white;
+    background-color: rgb(163, 11, 11);
+}
+.denomination{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+td, th{
+    border: 1px solid white;
+    padding:2%;
+    width:10%;
+}
+.hide , .hide1, .hide2, .hide-banner{
+    display: none;
+}
+
+.banner{
+    background-color: burlywood;
+    padding:10px;
+    color: rgb(4, 0, 255)
+}
+
+.display{
+    margin-bottom: 0px;
+    color: red;
+}
